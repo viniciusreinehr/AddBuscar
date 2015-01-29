@@ -1,0 +1,109 @@
+<html>
+<head>
+<title>addBuscar</title>
+
+<script language="javascript" type="text/javascript" src="http://code.jquery.com/jquery-2.1.3.min.js"></script>
+<script language="javascript" type="text/javascript" src="libs/addBuscar.js"></script>
+
+<script language="javascript">
+$(function(){
+	addBuscar.load("#buscar");
+});
+</script>
+
+<style type="text/css">
+<!--
+table {
+	margin: 0px;
+	padding: 0px;
+	width: 600px;
+}
+table thead {
+	margin: 0px;
+	padding: 0px;
+}
+table thead tr {
+	margin: 0px;
+	padding: 0px;
+	margin-bottom: 5px;
+	background-color: #efefef;
+}
+table tfoot {
+	margin: 0px;
+	padding: 0px;
+}
+table tfoot tr {
+	margin: 0px;
+	padding: 0px;
+	margin-top: 5px;
+	background-color: #efefef;
+}
+table tbody {
+	margin: 0px;
+	padding: 0px;
+}
+table tbody tr {
+	margin: 0px;
+	padding: 0px;
+}
+table tbody tr td {
+	padding: 2px;
+	border: solid 1px #efefef;
+}
+
+
+/*ESTILO DA LINHA DE BUSCA*/
+.thBuscarItens {
+	text-align: left;
+	font-size: 11px;
+	text-transform: uppercase;
+	padding: 5px;
+}
+.thBuscarItens input {
+	height: 20px;
+	font-size: 11px;
+	text-transform: uppercase;
+	border: solid 1px #ddd;
+}
+/*FIM DO ESTILO DA LINHA DE BUSCA*/
+-->
+</style>
+
+</head>
+<body>
+
+<p>
+	Ferramenta simples e precisa para adicionar um campo de busca para pequenas e médias tabelas que não possuem paginação.
+</p>
+
+<table id="buscar">
+	<thead>
+		<tr>
+			<th width="50">ID</th>
+			<th>Nome</th>
+		</tr>
+	</thead>
+	<tfoot>
+		<tr>
+			<th>ID</th>
+			<th>Nome</th>
+		</tr>
+	</tfoot>
+	<tbody>
+		<tr>
+			<td style="text-align:right;">01</td>
+			<td>Fausto Silva</td>
+		</tr>
+		<tr>
+			<td style="text-align:right;">02</td>
+			<td>Maria das Graças Meneguel</td>
+		</tr>
+		<tr>
+			<td style="text-align:right;">03</td>
+			<td>João da Silva</td>
+		</tr>
+	</tbody>
+</table>
+
+</body>
+</html>

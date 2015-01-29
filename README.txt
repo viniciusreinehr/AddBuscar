@@ -1,0 +1,1 @@
+A utilização é muito simples. Mantenha os direitos autorais, pois assim, nos motiva a continuar criando ferramentas uteis para todos.
